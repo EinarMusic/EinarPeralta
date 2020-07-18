@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Einar Peralta</title>
+        <link rel="stylesheet" href="index.js">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+              <!-- social -->
+              <div class="container-social">
+                <div class="social">
+                    <a href="https://www.facebook.com/SeverinoBeard" target="blank">
+                        <img src="iconos/facebook-3.png" alt=""/>
+                    </a>
+                </div>
+                <div class="social" style="margin-left: 20px;">
+                    <a href="https://www.instagram.com/einarperalta/" target="blank">
+                        <img src="iconos/instagram-3.png" alt=""/>
+                    </a>
+                </div>
+                <div class="social" style="margin-left: 20px;">
+                    <a href="https://twitter.com/EinarPeralta01" target="blank">
+                        <img src="iconos/twitter-3.png" alt=""/>
+                    </a>
+                </div>
+                <div class="social" style="margin-left: 20px;">
+                    <a href="https://www.youtube.com/c/EinarTavarez/videos" target="blank">
+                        <img src="iconos/youtube-3.png" alt=""/>
+                    </a>
+                </div>
+            </div>
+
+            <!-- video-gif -->
+
+        <div class="header-container">
+            <div class="header-v" style="background-image: url(video/header-v1.gif);"></div>
+        </div>
+
+            <!-- card -->
+
+            <h1 class="title">Einar Peralta</h1> 
+
+            <div class="container">
+
+                <div class="card">
+                    <img src="img/einar04.jpg" alt="Productor. projectos."/>
+                    <h4>Productor</h4>
+                    <p>Productor y arreglista, para proyectos propios y de otros artistas.</p>
+                    <a href="https://www.youtube.com/user/EiDrums" target="blank">Proyectos</a>
+                </div>
+                <div class="card">
+                    <img style="width: 100%;height: 52%;" src="img/be-ground.jpg" alt="musico. projectos."/>
+                    <h4>BE Grounp</h4>
+                    <p>Grupo de medios Bryan & Einar, dedicado a todo lo relacionado con audiovisuales en salones de evento e iglesias.</p>
+                    <a href="https://www.youtube.com/channel/UCseopoNTgNxlgMiJVvk3Pvg" target="
+                    blank">Proyectos</a>
+                </div>
+                <div class="card">
+                    <img src="img/einar01.jpg" alt="musico. projectos."/>
+                    <h4>Músico</h4>
+                    <p>Guitarrista para diferentes artistas y grupos.</p>
+                    <a href="https://www.youtube.com/user/EiDrums" target="blank">Proyectos</a>
+                </div>
+            </div>
+
+             <!-- logo-black -->
+
+             <div id="logo-b" class="logo-black" style="width:200px; height: 100px; z-index: 1;">
+                <img src="logo/logo.png" alt="" style="width: 100%;">
+            </div>
+
+            <!-- logo-white -->
+
+            <div id="logo-w" class="logo" style="width:200px; height: 100px; z-index: 1;">
+                <a href="#">
+                <img src="logo/logo.png" alt="" style="width: 100%;">
+                </a>
+            </div>
+
+            <script>
+                window.onscroll = function() {scrollFunction()};
+
+                function scrollFunction() {
+                    if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+                        document.getElementById("logo-w").style.display = "block";
+                        document.getElementById("logo-b").style.display = "none";
+                    } else {
+                        document.getElementById("logo-w").style.display = "none";
+                        document.getElementById("logo-b").style.display = "block";
+                    }
+                }
+            </script>
+
+            <!-- galeria-foto -->
+
+            <div class="container-foto">
+                <div class="box">
+                    <img src="img/einar06.jpg" alt="">
+                </div>
+
+                <div class="box">
+                    <img src="img/einar03.jpg" alt="">
+                </div>
+
+                <div class="box">
+                    <img src="img/einar07.jpg" alt="">
+                </div>
+
+                <div class="box">
+                    <img src="img/einar02.jpg" alt="">
+                </div>
+            </div>
+
+
+    </body>
+</html>
